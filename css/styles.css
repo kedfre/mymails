@@ -5,14 +5,12 @@ body {
     }
 
     #wrapper {
-        border: 1px #dadada solid;
         margin: 30px auto;
         width: 50%;
         background-color: #fff;
+        border: 1px #dadada solid;
+        border-radius: 5px;
         }
-        #wrapper:last-child {
-            border: 0;
-            }
 
     .message {
         display: flex;
@@ -44,7 +42,12 @@ body {
                 .messageActions img {
                     width: 15px;
                     height: 15px;
+                    cursor: pointer;
                     }
+    .message:last-child {
+        border: 0;
+        }
+       
     h1 {
         width: 50%;
         margin: 0 auto;
