@@ -1,3 +1,15 @@
 body {
-    background-color: hotpink;
+    background-color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+
+    #wrapper {
+        border: 1px red solid;
+        margin: 30px auto;
+        width: 80%;
+        }
+    .row {
+        border: 1px green solid;
+        display: flex;
+        flex-direction: row;
+        }
